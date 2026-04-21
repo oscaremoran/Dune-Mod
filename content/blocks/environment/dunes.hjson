@@ -1,0 +1,7 @@
+{
+    type: Floor
+    variants: 3
+    playerUnmineable: true
+    attributes: { sand: 0.2 }
+    mapColor: "b8803a"
+}

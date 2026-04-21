@@ -1,0 +1,41 @@
+{
+    parent: sun
+    solarSystem: sun
+    radius: 1
+    orbitRadius: 55
+    orbitTime: 15000
+    rotateTime: 9000
+    hasAtmosphere: true
+    bloom: false
+    atmosphereColor: "d9a55240"
+    atmosphereRadIn: 0.02
+    atmosphereRadOut: 0.3
+    iconColor: "c86b1f"
+    lightColor: "f0c06080"
+    landCloudColor: "c86b1f80"
+    startSector: 0
+    sectorSize: 2
+    alwaysUnlocked: true
+    defaultCore: dune-core-sietch
+    accessible: true
+    visible: true
+    clearSectorOnLose: true
+    allowWaves: true
+    prebuildBase: true
+    allowLaunchSchematics: false
+    allowLaunchToNumbered: false
+    allowLaunchLoadout: false
+    allowSectorInvasion: false
+    launchCandidates: []
+    generator: {
+        octaves: 3
+        persistence: 0.5
+        scale: 20
+        mag: 0.7
+        thresh: 1.1
+        min: 100
+        max: 100
+        radMin: 220
+        radMax: 600
+    }
+}

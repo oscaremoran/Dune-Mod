@@ -1,0 +1,18 @@
+{
+    type: Drill
+    size: 2
+    tier: 2
+    drillTime: 480
+    health: 360
+    itemCapacity: 20
+    requirements: [
+        spice/40
+    ]
+    alwaysUnlocked: true
+    research: {
+        parent: dune-core-sietch
+        requirements: [
+            spice/20
+        ]
+    }
+}

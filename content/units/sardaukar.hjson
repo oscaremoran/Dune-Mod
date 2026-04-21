@@ -1,0 +1,30 @@
+{
+    type: legs
+    speed: 1.8
+    health: 520
+    armor: 6
+    hitSize: 12
+    flying: false
+    alwaysUnlocked: true
+    weapons: [
+        {
+            name: dune-sardaukar-weapon
+            reload: 22
+            x: 3
+            y: 1
+            mirror: true
+            bullet: {
+                type: BasicBulletType
+                damage: 22
+                speed: 4
+                lifetime: 45
+                width: 8
+                height: 12
+                pierce: true
+                pierceCap: 2
+                frontColor: "e8d5ff"
+                backColor: "5a3a8a"
+            }
+        }
+    ]
+}

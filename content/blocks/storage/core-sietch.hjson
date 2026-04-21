@@ -1,0 +1,18 @@
+{
+    type: CoreBlock
+    size: 3
+    health: 1200
+    itemCapacity: 4000
+    isFirstTier: true
+    unitType: dune-fremen-scout
+    alwaysUnlocked: true
+    requirements: [
+        spice/200
+    ]
+    research: {
+        planet: arrakis
+        root: true
+        name: "Core: Sietch"
+        requiresUnlock: false
+    }
+}

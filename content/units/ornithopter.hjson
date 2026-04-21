@@ -1,0 +1,43 @@
+{
+    type: flying
+    flying: true
+    alwaysUnlocked: true
+    speed: 2.6
+    accel: 0.09
+    drag: 0.05
+    rotateSpeed: 6
+    hitSize: 11
+    health: 440
+    armor: 2
+    engineSize: 2.4
+    engineOffset: 7.2
+    range: 120
+    faceTarget: false
+    weapons: [
+        {
+            name: dune-ornithopter-weapon
+            reload: 22
+            x: 3.5
+            y: 1
+            top: true
+            rotate: true
+            mirror: true
+            ejectEffect: casing2
+            bullet: {
+                type: BasicBulletType
+                damage: 18
+                speed: 4
+                lifetime: 50
+                width: 8
+                height: 11
+                splashDamage: 10
+                splashDamageRadius: 12
+                frontColor: "ffd98a"
+                backColor: "c86b1f"
+                shootEffect: shootSmall
+                smokeEffect: shootSmallSmoke
+                ammoMultiplier: 2
+            }
+        }
+    ]
+}

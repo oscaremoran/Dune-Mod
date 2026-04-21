@@ -1,10 +1,11 @@
 name: dune
 displayName: "[orange]Dune[]"
 author: "Oscar Moran"
-description: "A Dune-themed Mindustry mod."
+description: "A Dune-themed Mindustry mod. Adds Arrakis."
 subtitle: "Dune-themed content"
 version: "0.1.0"
 minGameVersion: "154"
 repo: "oscaremoran/Dune-Mod"
+main: "scripts/main.js"
 java: false
 hidden: false

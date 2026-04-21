@@ -1,0 +1,28 @@
+{
+    type: legs
+    speed: 2.4
+    health: 220
+    armor: 2
+    hitSize: 8
+    flying: false
+    alwaysUnlocked: true
+    weapons: [
+        {
+            name: dune-fremen-warrior-weapon
+            reload: 30
+            x: 0
+            y: 2
+            mirror: false
+            bullet: {
+                type: BasicBulletType
+                damage: 14
+                speed: 3.5
+                lifetime: 40
+                width: 7
+                height: 10
+                frontColor: "ffd98a"
+                backColor: "c86b1f"
+            }
+        }
+    ]
+}

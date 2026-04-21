@@ -1,0 +1,30 @@
+{
+    type: UnitFactory
+    size: 3
+    health: 480
+    plans: [
+        {
+            unit: dune-fremen-warrior
+            time: 1
+            requirements: [
+                spice/100
+            ]
+        }
+        {
+            unit: dune-sardaukar
+            time: 1
+            requirements: [
+                spice/250
+            ]
+        }
+    ]
+    requirements: [
+        spice/80
+    ]
+    research: {
+        parent: dune-core-sietch
+        requirements: [
+            spice/100
+        ]
+    }
+}

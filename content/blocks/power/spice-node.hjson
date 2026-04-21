@@ -1,0 +1,11 @@
+{
+    type: PowerNode
+    size: 1
+    maxNodes: 4
+    laserRange: 6
+    health: 100
+    requirements: [
+        spice/5
+    ]
+    research: dune-spice-generator
+}

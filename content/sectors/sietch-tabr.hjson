@@ -1,0 +1,9 @@
+{
+    type: SectorPreset
+    sector: 0
+    planet: arrakis
+    captureWave: 20
+    difficulty: 1
+    startWaveTimeMultiplier: 2
+    useAI: false
+}

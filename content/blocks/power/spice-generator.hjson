@@ -1,0 +1,19 @@
+{
+    type: ConsumeGenerator
+    size: 2
+    powerProduction: 14
+    itemDuration: 20
+    health: 340
+    hasItems: true
+    consumes: {
+        items: {
+            items: [
+                spice/1
+            ]
+        }
+    }
+    requirements: [
+        spice/30
+    ]
+    research: dune-spice-exporter
+}

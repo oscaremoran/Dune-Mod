@@ -1,0 +1,23 @@
+{
+    type: UnitFactory
+    size: 3
+    health: 460
+    plans: [
+        {
+            unit: dune-ornithopter
+            time: 1
+            requirements: [
+                spice/400
+            ]
+        }
+    ]
+    requirements: [
+        spice/120
+    ]
+    research: {
+        parent: dune-barracks
+        requirements: [
+            spice/200
+        ]
+    }
+}

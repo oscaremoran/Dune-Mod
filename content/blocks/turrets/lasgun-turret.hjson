@@ -1,0 +1,29 @@
+{
+    type: PowerTurret
+    size: 2
+    health: 280
+    reload: 35
+    range: 160
+    inaccuracy: 1
+    rotateSpeed: 7
+    recoil: 1
+    shootSound: laser
+    shootType: {
+        type: LaserBulletType
+        damage: 45
+        sideAngle: 20
+        sideWidth: 1.5
+        sideLength: 40
+        width: 15
+        length: 160
+        lifetime: 16
+        colors: ["ff6b6bff", "ffa033ff", "ffff88ff"]
+    }
+    consumes: {
+        power: 3
+    }
+    requirements: [
+        spice/30
+    ]
+    research: dune-spice-exporter
+}
